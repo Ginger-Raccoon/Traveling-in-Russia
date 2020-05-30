@@ -1,0 +1,11 @@
+.intro__text_position_inform {
+  font-size: 13px;
+  line-height: 20px;
+}
+
+@media screen and (max-width: 375px) {
+  .intro__text_position_inform {
+    font-size: 12px;
+    line-height: 19px;
+  }
+}

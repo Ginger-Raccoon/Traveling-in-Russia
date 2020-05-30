@@ -1,0 +1,29 @@
+@import url('../__comment/comments__comment.css');
+
+.comments__container {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-column-gap: 19px;
+  max-width: 1184px;
+  margin:68px auto 0;
+}
+
+@media screen and (max-width: 768px) {
+  .comments__container {
+    grid-template-columns: repeat(1, 1fr);
+    max-width: 382px;
+    grid-row-gap: 48px;
+  }
+}
+
+@media screen and (max-width: 375px) {
+  .comments__container {
+    margin-top: 48px;
+  }
+}
+
+@media screen and (max-width: 320px) {
+  .comments__container {
+    margin-top: 40px;
+  }
+}

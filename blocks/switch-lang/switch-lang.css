@@ -1,0 +1,17 @@
+@import url('./__lang/switch-lang__lang.css');
+@import url('./_place/switch-lang_place_header.css');
+
+.switch-lang {
+  list-style-type: none;
+  font-size: 24px;
+  line-height: 23px;
+  padding: 0;
+}
+ 
+@media screen and (max-width: 375px) {
+  .switch-lang {
+    font-size: 18px;
+    line-height: 17px;
+  }
+}
+

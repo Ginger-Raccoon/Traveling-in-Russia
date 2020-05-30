@@ -1,0 +1,11 @@
+@import url('./_isActive/switch__lang_isActive.css');
+
+.switch-lang__lang {
+  display: inline;
+  padding-left: 0;
+  padding-right: 13px;
+}
+
+.switch-lang__lang:last-child{
+  padding-right: 0;
+}

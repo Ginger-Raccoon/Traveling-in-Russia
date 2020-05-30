@@ -1,0 +1,26 @@
+@import url('../__duration/video__duration.css');
+@import url('../__title/video__title.css');
+@import url('../__subtitle/video__subtitle.css');
+
+.video__inform {
+  z-index: 1;
+  padding: 0 0 30px 30px;
+}
+
+@media screen and (max-width: 1024px) {
+  .video__inform {
+    padding-bottom: 35px;
+  }
+}
+
+@media screen and (max-width: 990px) {
+  .video__inform {
+    padding: 0 0 24px 24px;
+  }
+}
+
+@media screen and (max-width: 320px) {
+  .video__inform {
+    padding: 0 0 16px 16px;
+  }
+}

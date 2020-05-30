@@ -1,0 +1,42 @@
+@import url('../place/place.css');
+
+.places {
+  max-width: 984px;
+  margin: 0 auto;
+
+  display: flex;
+  flex-direction: column;
+
+  padding-top: 20px;
+}
+
+
+/* .places {
+  max-width: 984px;
+  margin: 0 auto;
+  padding-top: 103px;
+  display: grid;
+  grid-template-columns: repeat(1, 984px);
+  grid-row-gap: 81px;
+}
+
+@media (min-width: 1024px) and (max-width: 1439px) {
+  .places {
+    padding: 102px 0 0;
+    grid-row-gap: 72px;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 1023px) {
+  .places {
+    padding: 102px 24px 0;
+  }
+}
+
+@media (min-width: 375px) and (max-width: 767px) {
+  .places {
+    padding: 64px 0 0;
+    grid-row-gap: 48px;
+  }
+} */
+

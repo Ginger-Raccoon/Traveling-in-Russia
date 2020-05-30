@@ -1,0 +1,39 @@
+@import url('../__item/video__item.css');
+
+.video__container {
+  margin-top: 72px;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-gap: 16px 18px;
+  /* min-height: 323px; */
+  position: relative;
+}
+
+@media screen and (max-width: 1024px) {
+  .video__container {
+    max-width: 928px;
+  }
+}
+
+@media screen and (max-width: 990px) {
+  .video__container {
+    grid-template-rows: 200px;
+    max-width: 720px;
+    margin-top: 56px;
+  }
+}
+
+
+@media screen and (max-width: 770px) {
+  .video__container {
+    grid-template-columns: repeat(1, 1fr);
+  }
+}
+
+@media screen and (max-width: 770px) {
+  .video__container {
+    
+    grid-gap: 8px 18px;
+    margin-top: 24px;
+  }
+}

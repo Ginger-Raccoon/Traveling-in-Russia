@@ -1,0 +1,11 @@
+@import url('./_decoration/link_decoration_none.css');
+@import url('./_decoration/link_decoration_underline.css');
+
+.link {
+  color: white;
+  transition: opacity .3s linear;
+}
+
+.link:hover {
+  opacity: .7;
+}

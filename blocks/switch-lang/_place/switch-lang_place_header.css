@@ -1,0 +1,9 @@
+.switch-lang_place_header{
+  margin-top: 50px;
+}
+
+@media screen and (max-width: 375px) {
+  .switch-lang_place_header {
+    margin-top: 33px;
+  }
+}
