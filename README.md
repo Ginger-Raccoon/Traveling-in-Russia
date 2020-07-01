@@ -1,6 +1,8 @@
 # Traveling-in-Russia
 Second project in Yandex.Praktikum
 
+https://ginger-raccoon.github.io/Traveling-in-Russia/
+
 Второй учебный проект Яндекс.Практикум.
 
 Используемые технологии: HTML5, CSS3(Адаптивная верстка), БЭМ
